@@ -52,6 +52,7 @@ SOONG_CONFIG_customGlobalVars += \
     target_trust_usb_control_disable \
     uses_egl_display_array \
     uses_oplus_camera \
+    uses_oplus_touch \
     uses_nothing_camera
 
 ifneq ($(TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH),)
@@ -84,6 +85,7 @@ SOONG_CONFIG_customGlobalVars_gralloc_handle_has_reserved_size := $(TARGET_GRALL
 SOONG_CONFIG_customGlobalVars_gralloc_handle_has_ubwcp_format := $(TARGET_GRALLOC_HANDLE_HAS_UBWCP_FORMAT)
 SOONG_CONFIG_customGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPLAY_ARRAY)
 SOONG_CONFIG_customGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
+SOONG_CONFIG_customGlobalVars_uses_oplus_touch := $(TARGET_USES_OPLUS_TOUCH)
 SOONG_CONFIG_customGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
 SOONG_CONFIG_customNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
 SOONG_CONFIG_customQcomVars_no_fm_firmware := $(TARGET_QCOM_NO_FM_FIRMWARE)
